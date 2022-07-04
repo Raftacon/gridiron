@@ -1,4 +1,4 @@
-# Gridiron
+![Logo](gridiron.png)
 
 Gridiron is a simple quiz platform for testing out out & training your NFL knowledge! This tool primarily leverages:
 
