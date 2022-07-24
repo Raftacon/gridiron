@@ -48,6 +48,8 @@ serve(app, host='0.0.0.0', port=80)
 
 [See this useful article](https://levelup.gitconnected.com/how-to-deploy-a-flask-application-on-amazon-ec2-38837df3fa52) for more details regarding hosting Gridiron on your own.
 
+Although `waitress` does not currently [feature TLS support](https://github.com/Pylons/waitress/blob/36240c88b1c292d293de25fecaae1f1d0ad9cc22/docs/reverse-proxy.rst), you can still [set up a reverse proxy](https://dev.to/thetrebelcc/how-to-run-a-flask-app-over-https-using-waitress-and-nginx-2020-235c) through `nginx` to finish implementing SSL.
+
 Also, some additional details to keep in mind if hosting externally:
 
 * Make sure to update the URLs referenced in the configuration at the top of the `gridiron.js` file from `localhost` to the public-facing URL for CORS to continue working properly.
