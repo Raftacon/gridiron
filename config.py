@@ -4,14 +4,14 @@
 # Global configuration settings: |
 # ===============================|
 api_key = '####################'
-application_version = "1.0.1"
+application_version = "1.0.2"
 
 base_uri = 'https://api.sportradar.us/nfl/official/trial/v7/en'
 league_endpoint = '/league/hierarchy.json?api_key={api_key}'
 team_roster_endpoint = '/teams/{id}/profile.json?api_key={api_key}'
 depth_chart_endpoint = '/seasons/{year}/{nfl_season_type}/{nfl_season_week}/depth_charts.json?api_key={api_key}'
 
-depth_year = "2021"
+depth_year = "2022"
 depth_nfl_season_type = "REG" # PRE, REG, or PST (post)
 depth_nfl_season_week = "18"
 

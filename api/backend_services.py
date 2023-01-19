@@ -1,4 +1,6 @@
 import json
+import requests
+import time
 
 import deserialize
 import jsonpickle
@@ -119,7 +121,7 @@ def refresh_cache():
                         # positions & depth by configuration definition:
                         team.players.extend(search_for_eligible_players(depth_chart_team.offense))
                         team.players.extend(search_for_eligible_players(depth_chart_team.defense))
-                        team.players.extend(search_for_eligible_playerss(depth_chart_team.special_teams))
+                        team.players.extend(search_for_eligible_players(depth_chart_team.special_teams))
                         
                         break
                     else:

@@ -3,7 +3,6 @@ import inspect
 import json
 import random
 import requests
-import time
 
 from os import path
 
