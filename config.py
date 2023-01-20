@@ -3,7 +3,7 @@
 # ===============================|
 # Global configuration settings: |
 # ===============================|
-api_key = '####################'
+api_key = 'tz4rfve8mpvzsxsjunjmm8su'
 application_version = "1.0.2"
 
 base_uri = 'https://api.sportradar.us/nfl/official/trial/v7/en'
